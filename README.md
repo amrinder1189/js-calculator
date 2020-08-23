@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
+.
+https://keen-wozniak-7dc008.netlify.app<br>
+please click the above link to use calculator . please try to oen in desktop or laptop for better experience:)
 
 ## Available Scripts
 
