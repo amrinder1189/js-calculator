@@ -1,11 +1,93 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  height: 50vh;
+  width: auto;
+  align-items: center !important;
+  text-align: center !important;
 }
+
+body{
+    display: flex  !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+
+/* #F9E1CD */
+
+button{
+    
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    background:#3398DA;
+    color: white;
+    border-radius: 50%;
+    margin: 2px;
+    font-weight: bolder;
+  }
+.blue{
+  background-color: #2C3D50;
+}
+.orange{
+  background-color: orange;
+}
+
+  button:hover{
+    background-color: #2C3D50;
+    box-shadow: 2px 2px 5px rgba(0, 0,0,0.5);
+  }
+  /* 2C3D50 */
+.calculator{
+   position: relative;
+    height: 50vh;
+    width: 24%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    align-content: flex-start !important;
+}
+
+.display{
+    border:1px solid black; 
+    border-radius: 5px;
+    height: 5vh;
+    text-align: right;
+    font-size: 2rem;
+    width: 23% !important; 
+    margin: 0.3rem;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}
+
+
+.display{
+   
+
+    height: 5vh;
+    font-size: 2rem;
+    width: 15%;
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
